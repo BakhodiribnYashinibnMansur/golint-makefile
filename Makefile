@@ -1,4 +1,4 @@
-.DEFAULT_TARGET := full-check
+.DEFAULT_GOAL := full-check
 
 install-linter:
 	go install golang.org/x/lint/golint@latest
